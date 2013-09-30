@@ -1,7 +1,7 @@
 # init
-# source("init.R")
-root <- "C:/Users/nao/Documents/GitHub/RecSys2013YelpBusinessRatingPrediction"
-source(file.path(root, "/r/init.R"))
+source("init.R")
+# root <- "C:/Users/nao/Documents/GitHub/RecSys2013YelpBusinessRatingPrediction"
+# source(file.path(root, "/r/init.R"))
 
 load(file.path(folder$rdata, "cleandata.RData"))
 require(tm)
